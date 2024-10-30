@@ -1,0 +1,286 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mango-button {
+    color: #909090;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.mango-button:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mango-button--style15 {
+    font-family: 'Lora', serif;
+    color: #3ba3f8;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mango-button--style19 {
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+    background-color: #FE4E29;
+    width: 100%;
+    border-bottom: 3px solid #E34625;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 0;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.mango-discount2 {
+    padding-top: 84px;
+    font-family: "Roboto", sans-serif;
+}
+
+.mango-discount2 * {
+    font-family: "Roboto", sans-serif;
+}
+
+.mango-discount2__wrap {
+    padding-top: 100px;
+    padding-bottom: 112px;
+    position: relative;
+}
+
+.mango-discount2__email,
+.mango-discount2__name {
+    margin-bottom: 15px;
+}
+
+.mango-discount2__email input,
+.mango-discount2__name input {
+    background-color: #e8eeef;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #d8d9dc;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.mango-discount2 ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #aab9bc;
+}
+
+.mango-discount2 ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #aab9bc;
+}
+
+.mango-discount2 :-ms-input-placeholder {
+    /* IE 10+ */
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #aab9bc;
+}
+
+.mango-discount2 :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #aab9bc;
+}
+
+.mango-discount2__title span {
+    font-size: 23px;
+    color: #2b2b2b;
+    font-weight: 300;
+    color: white;
+}
+
+.mango-discount2__title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0 79px;
+}
+
+.mango-discount2__body {
+    padding: 0 20px;
+}
+
+.mango-discount2__subtitle {
+    color: #a5a5a5;
+    text-align: center;
+    padding: 0 25px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.mango-discount2__subtitle span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.mango-discount2__email, .mango-discount2__name {
+    margin-bottom: 15px;
+}
+
+.mango-discount2__submit {
+    margin-top: 23px;
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+
+.mango-discount2__footer {
+    position: absolute;
+    bottom: 15px;
+    left: -12px;
+    right: -12px;
+}
+
+.mango-discount2__footer img,
+.mango-discount2__header img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .mango-discount2__title {
+        padding: 0 73px;
+    }
+}
+
+.mango-discount2__text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #8e8e8e;
+}
+
+.mango-discount2__header {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    right: -32px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mango-popup__close {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 300;
+    color: #e6e6e6;
+    background-color: transparent;
+    top: 20px;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 430px) {
+    .mango-discount2 {
+        padding-left: 40px;
+        padding-right: 32px;
+    }
+
+    .mango-discount2__title span {
+        font-size: 23px;
+    }
+
+    .mango-discount2__title {
+        letter-spacing: 1px;
+    }
+
+    .mango-discount2__subtitle {
+        font-size: 23px;
+    }
+
+    .mango-discount2__body {
+        padding: 0 47px;
+    }
+
+    .mango-button--style15 {
+        font-size: 20px;
+        padding: 23px;
+    }
+
+    .mango-popup__close {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        right: 25px;
+        top: 6px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: #000;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+    .mango-discount2__wrap {
+        padding-bottom: 154px;
+    }
+
+    .mango-discount2 {
+        padding-top: 118px;
+    }
+
+    .mango-popup__close {
+        top: 20px;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mango-discount2__wrap {
+        padding-bottom: 112px;
+    }
+
+    .mango-discount2 {
+        padding-top: 84px;
+    }
+    .mango-discount2__body {
+        min-height: 300px;
+    }
+    .mango-popup__close {
+        top: 6px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: #000;
+        font-family: sans-serif;
+    }
+}
+
+
+
+

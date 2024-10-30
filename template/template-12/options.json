@@ -1,0 +1,12 @@
+{
+  "background_color": "#AAAAAA",
+  "animation": "",
+  "max_width": "100%",
+  "height": "100vh",
+  "positions": [
+    "modal_fullscreen"
+  ],
+  "background_image": "assets/img/background.jpg",
+  "tags": [],
+  "package": "Basic Templates"
+}

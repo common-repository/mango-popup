@@ -1,0 +1,204 @@
+.mango-popup-container {
+  border: 1px solid #eee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.mango-popup-button-cta:hover,
+.mango-popup-placeholder-editable:hover{
+  outline-offset: 3px;
+}
+
+.mango-popup-container * {
+  box-sizing: border-box;
+}
+
+.mango-popup-container .mango-button {
+  color: #909090;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px; }
+
+.mango-popup-container .mango-button:focus {
+  box-shadow: none; }
+
+.mango-popup-container button.mango-button--style15 {
+  font-family: 'Lora', serif;
+  color: #3ba3f8;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 5px; }
+
+@media only screen and (min-width: 600px) {
+  .mango-popup-container button.mango-button--style15 {
+    font-size: 20px;
+    padding: 23px; } }
+
+.mango-popup-container input[type="text"],
+.mango-popup-container button {
+  border: none;
+  box-shadow: none;
+  background: #fff; }
+
+.mango-popup-container button {
+  cursor: pointer; }
+
+.mango-popup-container .mango-button--style19 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #00bea1;
+  padding: 10px;
+  border-bottom: 3px solid #00ab91;
+  border-radius: 7px; }
+
+.mango-popup-container div.mango-discount2 h2,
+.mango-popup-container div.mango-discount2 h3,
+.mango-popup-container div.mango-discount2 div {
+  text-align: center; }
+
+.mango-popup-container .mango-discount2 {
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 7px solid #fff;
+  padding: 74px 0 57px;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+
+mango-popup-container .mango-discount2 * {
+  font-family: "Roboto", sans-serif;
+}
+
+.mango-popup-container .mango-discount2 div.mango-discount2__submit button.mango-button--style19 span {
+  line-height: 21px; }
+
+.mango-popup-container .mango-discount2 div.mango-discount2__email,
+.mango-popup-container .mango-discount2 div.mango-discount2__name {
+  margin-bottom: 15px; }
+
+.mango-popup-container .mango-discount2 div.mango-discount2__email input {
+  background-image: url('{$MANGO_POPUP_TEMPLATE_URL}/assets/img/bag.png');
+}
+
+.mango-popup-container .mango-discount2 div.mango-discount2__name input {
+  background-image: url('{$MANGO_POPUP_TEMPLATE_URL}/assets/img/person.png');
+}
+
+.mango-popup-container .mango-discount2 div.mango-discount2__email input,
+.mango-popup-container .mango-discount2 div.mango-discount2__name input {
+  background-color: #fff;
+  width: 100%;
+  height: 43px;
+  border: 1px solid #d8d9dc;
+  border-radius: 7px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-x: 21px;
+  background-position-y: 14px;}
+
+.mango-popup-container .mango-discount2 ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #cacaca; }
+
+.mango-popup-container .mango-discount2 ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #cacaca; }
+
+.mango-popup-container .mango-discount2 :-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #cacaca; }
+
+.mango-popup-container .mango-discount2 :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #cacaca; }
+
+.mango-popup-container .mango-discount2__title span{
+  font-size: 20px;
+  line-height:normal;
+  color: #2b2b2b;
+  font-weight: 700;
+}
+.mango-popup-container .mango-discount2__title {
+  padding: 0 20px;
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+.mango-popup-container .mango-discount2__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+
+.mango-popup-container .mango-discount2__subtitle:hover{
+  text-align: center;
+}
+
+.mango-popup-container .mango-discount2__subtitle {
+  padding: 0 25px;
+  margin-top: 0;
+  margin-bottom: 37px; }
+
+.mango-popup-container .mango-discount2__form {
+  width: 100%;
+  padding: 0 30px; }
+
+.mango-popup-container .mango-discount2__email,
+.mango-popup-container .mango-discount2__name {
+  margin-bottom: 15px; }
+
+.mango-popup-container .mango-discount2__submit {
+  margin-bottom: 22px; }
+
+.mango-popup-container .mango-discount2__submit button {
+  width: 100%; }
+
+.mango-popup-container .mango-discount2__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #8e8e8e;
+  padding: 0 15px; }
+
+.mango-popup-container .mango-discount2__text:hover {
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .mango-popup-container .mango-discount2__title span{
+    font-size: 34px;
+  }
+  .mango-popup-container .mango-discount2__title {
+    padding: 0 105px;
+  }
+  .mango-popup-container .mango-discount2__subtitle {
+    padding: 0 100px;
+    font-size: 20px; }
+  .mango-popup-container .mango-discount2__form {
+    padding: 0 139px; } }
+
+.mango-popup__close {
+  width: 28px;
+  height: 28px;
+  font-weight: 700;
+  color: #cecece;
+  line-height: 28px;
+  border: 2px solid #cecece;
+  top: 7px;
+  right: 8px;
+  background-color: #fff;
+}

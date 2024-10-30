@@ -1,0 +1,21 @@
+{
+  "name": "animate.css",
+  "main": "./animate.css",
+  "ignore": [
+    ".*",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ],
+  "homepage": "https://github.com/daneden/animate.css",
+  "_release": "5bde475149",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5bde475149fbd345fc665508a17f66a97fcfe94c"
+  },
+  "_source": "https://github.com/daneden/animate.css.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/daneden/animate.css.git"
+}

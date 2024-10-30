@@ -1,0 +1,200 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.mango-popup-button-cta:hover,
+.mango-popup-button-cta:focus,
+.mango-popup-button-cta-href-editable:hover,
+.mango-popup-button-cta-href-editable {
+  outline-offset: 3px;
+}
+
+.mango-deal01 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.mango-deal01__header {
+  background-color: #bbb;
+  padding: 20px;
+}
+
+.mango-deal01__header * {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #000;
+}
+
+.mango-deal01__subTitle {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.mango-deal01__title {
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0;
+  display: block;
+}
+
+.mango-deal01__title .color-red {
+  color: #cc0000;
+  margin-left: 10px;
+}
+
+.mango-deal01__body {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.mango-deal01__body .items {
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mango-deal01__image {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.mango-deal01__image img {
+  width: 100%;
+}
+
+.mango-deal01__name {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.mango-deal01__price {
+  padding: 0 10px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.mango-deal01__price:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mango-deal01__charge {
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.mango-deal01__old {
+  display: block;
+  font-size: 14px;
+  color: #aaa;
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.mango-deal01__new {
+  display: block;
+  font-size: 22px;
+  color: #cc0000;
+  text-align: center;
+}
+
+.mango-deal01__detail {
+  width: 70%;
+  float: left;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.mango-deal01__wrap {
+  width: 100%;
+}
+.mango-deal01__wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media only screen and (min-width: 650px) {
+  .mango-deal01__body {
+    display: table;
+  }
+
+  .mango-deal01__body .items {
+    width: 33.33333%;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 20px;
+  }
+
+  .mango-deal01__header {
+    padding: 40px;
+  }
+
+  .mango-deal01__subTitle {
+    font-size: 20px;
+  }
+
+  .mango-deal01__title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .mango-deal01__new,
+  .mango-deal01__old {
+    text-align: right;
+  }
+
+  .mango-deal01__charge {
+    width: 30%;
+    float: left;
+  }
+
+  .mango-deal01__body .items {
+    padding: 0 40px;
+  }
+}
+
+.mango-popup-container .mango-button {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px 30px 10px 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #cc0000;
+  margin-bottom: 10px;
+  position: relative;
+}
+.mango-popup-container .mango-button i {
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+  line-height: 45px;
+  background-color: #990000;
+  z-index: 9;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.mango-popup-container .mango-button i:before {
+  line-height: 45px;
+}
+
+.mango-popup__close {
+  background-color: transparent;
+}

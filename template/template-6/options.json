@@ -1,0 +1,14 @@
+{
+  "background_color": "transparent",
+  "animation": "",
+  "max_width": "760",
+  "height": "auto",
+  "positions": [
+    "modal_popup"
+  ],
+  "background_image": "assets\/img\/background.jpg",
+  "tags": [
+    "Shortcode Supported"
+  ],
+  "package": "Basic Templates"
+}

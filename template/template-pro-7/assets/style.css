@@ -1,0 +1,140 @@
+
+.mango-popup__close {
+  background-color: transparent;
+  color: #000;
+  font-size: 40px;
+}
+
+.mango-button {
+  background-color: #aec602;
+  border: none;
+  border-bottom: 3px solid #9cb202;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  padding: 14px 39px;
+  text-transform: uppercase; }
+
+.mango-button span {
+  text-transform: inherit;
+}
+
+.mango-popup-container {
+  max-width: 850px;
+  width: 100%;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  }
+
+.coupon {
+  font-family: 'Roboto', sans-serif; }
+
+.coupon * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.coupon__wrap {
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  border-radius: 30px; }
+.coupon__header {
+  position: relative; }
+.coupon__image {
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background: url("{$MANGO_POPUP_TEMPLATE_URL}/assets/img/0.png");
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 45%; }
+.coupon__body {
+  padding: 30px 0; }
+.coupon__body * {
+  text-align: center; }
+.coupon__title {
+  padding-right: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ff9900;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.coupon__title span {
+  text-transform: inherit;
+}
+
+.coupon__subtitle {
+  padding-right: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  margin-top: 0;
+  margin-bottom: 25px; }
+.coupon__text {
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #8e8e8e;
+  margin-bottom: 35px; }
+.coupon__submit {
+  padding-right: 10px;
+  margin-bottom: 15px; }
+
+.coupon__submit form {
+  padding: 0 30px;
+}
+.coupon__detail {
+  padding-right: 10px;
+  font-size: 14px;
+  color: #8e8e8e; }
+
+
+
+@media only screen and (min-width: 650px) {
+  .coupon {
+    padding: 0 60px; }
+  .coupon__wrap {
+    width: 100%;
+    padding: 60px 0; }
+
+  .coupon__wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .coupon__header {
+    width: 45%;
+    float: left;
+    height: 300px;
+  }
+  .coupon__body {
+    padding: 0;
+    width: 55%;
+    float: left;
+  }
+  .coupon__title {
+    font-size: 50px; }
+  .coupon__subtitle {
+    font-size: 50px; }
+  .coupon__image {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); }
+  .mango-popup__close {
+    font-weight: lighter;
+    right: 75px; } }

@@ -1,0 +1,16 @@
+{
+  "background_color": "#F5F5F5",
+  "animation": "",
+  "max_width": "700",
+  "height": "auto",
+  "positions": [
+    "modal_popup",
+    "slide_in_left",
+    "slide_in_right"
+  ],
+  "background_image": "assets\/img\/background.jpg",
+  "tags": [
+    "Shortcode Supported"
+  ],
+  "package": "Basic Templates"
+}

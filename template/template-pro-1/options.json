@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "Shortcode Supported"
+  ],
+  "background_color": "white",
+  "animation": "",
+  "max_width": "453",
+  "height": "auto",
+  "positions": [
+    "modal_popup"
+  ],
+  "background_image": false,
+  "package": "Special Collection",
+  "isLocked": true
+}

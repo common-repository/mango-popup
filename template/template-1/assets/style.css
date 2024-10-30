@@ -1,0 +1,195 @@
+span.mango-popup__close {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: #888888;
+  top: 0;
+  right: 0;
+  line-height: 40px;
+  font-size: 40px; }
+
+.mango-popup-container {
+  border-radius: 6px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.mango-popup-container * {
+  box-sizing: border-box; }
+
+/*.mango-popup-container .mango-popup__content {*/
+/*position: absolute; }*/
+
+.mango-popup-container .mango-button {
+  text-decoration: none;
+  color: #909090;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px; }
+
+.mango-popup-container .mango-button:focus {
+  box-shadow: none; }
+.mango-popup-container button span{
+  text-transform: uppercase;
+  line-height: 50px;
+}
+.mango-popup-container button.mango-button--style11 {
+  padding: 0 15px;
+  border: none;
+  box-shadow: none; }
+
+.mango-popup-container button {
+  cursor: pointer; }
+
+.mango-popup-container .text-incorect input {
+  border: 1px solid red; }
+
+.mango-popup-container .text-incorect input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ff3333 !important; }
+
+.mango-popup-container .text-incorect input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ff3333 !important; }
+
+.mango-popup-container .text-incorect input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ff3333 !important; }
+
+.mango-popup-container .text-incorect input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ff3333 !important; }
+.mango-popup-container .mango-button--style11 {
+  font-family: "Roboto", sans-serif;
+  color: #c77000;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 17px 15px;
+  background-color: #ffde00;
+}
+
+.mango-popup-container input[type="email"],
+.mango-popup-container input[type="email"]:focus,
+.mango-popup-container input[type="email"]:hover {
+  background-color: #fff;
+  border: none;
+}
+
+.mango-popup-container div.mango-newsletter {
+  font-family: "Roboto", sans-serif;
+}
+
+.mango-popup-container div.mango-newsletter * {
+  font-family: "Roboto", sans-serif;
+}
+
+.mango-popup-container .mango-newsletter:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mango-popup-container .mango-newsletter ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #9f9f9f;
+  font-size: 14px; }
+
+.mango-popup-container .mango-newsletter ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9f9f9f;
+  font-size: 14px; }
+
+.mango-popup-container .mango-newsletter :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #9f9f9f;
+  font-size: 14px; }
+
+.mango-popup-container .mango-newsletter :-moz-placeholder {
+  /* Firefox 18- */
+  color: #9f9f9f;
+  font-size: 14px; }
+
+.mango-popup-container .mango-newsletter .mango-newsletter__title {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  color: #00bebc;
+  border-bottom: 1px solid #e5e5e5; }
+
+.mango-popup-container .mango-newsletter .mango-newsletter__text {
+  text-align: center;
+  color: #535353;
+  font-size: 16px;}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form {
+
+  background-color: #00bebc;
+  width: 100%; }
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form .email {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form .submit button {
+  width: 100%;
+  text-align: center;}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form .submit i.mango-popup__button-icon-loading {
+  line-height: 50px;
+}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form input {
+  height: 50px;
+  width: 100%;
+  padding: 0 18px;
+  line-height: 50px;
+}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form input:hover {
+  border: none;
+}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__title {
+  padding: 20px 40px;
+}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__text,
+.mango-popup-container .mango-newsletter .mango-newsletter__form {
+  padding: 20px; }
+
+.mango-popup-container .mango-newsletter .mango-newsletter__form button {
+  width: 100%;
+  font-weight: 700;}
+
+.mango-popup-container .mango-newsletter .mango-newsletter__title {
+  font-size: 25px; }
+
+@media only screen and (min-width: 600px) {
+  .mango-popup-container .mango-newsletter .mango-newsletter__form .email {
+    width: 69% !important;
+    margin: 0 !important; }
+  .mango-popup-container .mango-newsletter .mango-newsletter__form .submit {
+    width: 31%; }
+  .mango-popup-container .mango-newsletter .mango-newsletter__form .email,
+  .mango-popup-container .mango-newsletter .mango-newsletter__form .submit {
+    float: left; }
+  .mango-popup-container .mango-newsletter .mango-newsletter__title {
+    font-size: 50px;
+  }
+  .mango-popup-container .mango-newsletter .mango-newsletter__text {
+    padding: 27px 110px;
+    font-size: 20px;
+  }
+  .mango-popup-container .mango-newsletter .mango-newsletter__form {
+    padding: 25px 84px;
+  }
+}
+
+

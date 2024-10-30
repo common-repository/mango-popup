@@ -1,0 +1,115 @@
+.mango-popup__header {
+  bottom: 0;
+  position: absolute;
+  width: 50%; }
+
+div.mango-popup-container {
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px 0 0 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+
+.mango-popup__header .mango-popup__close {
+  width: 50px;
+  top: -6px;
+  height: 50px;
+  font-weight: 100;
+  color: #c4c4c4;
+  background-color: #fff;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+}
+
+span.mango-popup__close {
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.mango-subscribe {
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+.mango-subscribe {
+  font-family: "Roboto", sans-serif;
+}
+
+.mango-subscribe, .mango-popup__content {
+  text-align: center; }
+
+div.mango-popup__body {
+  background: transparent !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: auto !important; }
+
+.mango-subscribe .mango-heading {
+  max-width: 333px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 330px;
+  font-size: 27px;
+  font-weight: bold;
+  color: #7A878F; }
+
+.mango-subscribe .mango-button, .mango-subscribe .mango-button:active, .mango-subscribe .mango-button:focus {
+  background-color: #FF4748;
+  color: white;
+  padding: 15px 54px;
+  font-size: 17px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 18px 20px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 18px 20px 0px rgba(0, 0, 0, 0.14); }
+
+.mango-subscribe .mango-button-wrap {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.mango-popup-white {
+  padding-bottom: 61px;
+  padding-top: 76px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.mango-image {
+  height: 107px;
+  vertical-align: bottom;
+  position: relative;
+  width: 453px; }
+
+@media only screen and (max-width: 367px) {
+  .mango-popup-container .mango-heading {
+    font-size: 23px; }
+  .mango-popup-container .mango-desc span {
+    font-size: 15px; } }
+@media only screen and (max-width: 767px) {
+  .mango-image {
+    width: auto; } }
+img {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -86px; }
+
+.mango-subscribe .mango-desc {
+  margin: 0 auto;
+  max-width: 252px;
+  font-size: 17px;
+  color: #A9AEB2;
+  padding-bottom: 25px;
+  text-align: center;
+  padding-top: 19px; }

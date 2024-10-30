@@ -1,0 +1,99 @@
+.mango-popup-button-cta:hover,
+.mango-popup-button-cta:focus {
+  outline-offset: 3px; }
+
+.mango-deal02 {
+  font-family: 'Roboto', sans-serif; }
+
+.mango-deal02__header {
+  padding: 20px; }
+
+.mango-deal02__title {
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0;
+  display: block;
+  color: #cc0000;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0; }
+
+.mango-deal02__body {
+  width: 100%;
+  padding: 40px 0; }
+
+.mango-deal02__body .items {
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.mango-deal02__image {
+  width: 150px;
+  margin: 0 auto; }
+
+.mango-deal02__image img {
+  width: 100%; }
+
+.mango-deal02__name {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 15px 0; }
+
+.mango-deal02__price {
+  text-align: center;
+  color: #cc0000;
+  margin-bottom: 20px;
+  font-weight: 700; }
+
+.mango-deal02__form {
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (min-width: 650px) {
+  .mango-deal02__body {
+    display: table; }
+  .mango-deal02__body .items {
+    width: 33.33333%;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 20px; }
+  .mango-deal02__header {
+    padding: 40px; }
+  .mango-deal02__title {
+    font-size: 30px; } }
+
+@media only screen and (min-width: 850px) {
+  .mango-deal02__body .items {
+    padding: 0 40px; } }
+
+.mango-popup-container .mango-button {
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3366CC;
+  padding: 10px 20px;
+  border: 0;
+  box-shadow: none; }
+
+.mango-popup-container .mango-button .mango-popup-plain-text-editable {
+  display: inline; }
+
+.mango-popup__close {
+  background-color: transparent;
+  color: #ccc;}
+.mango-deal02__regular_price span{
+  font-size: 16px;
+  text-decoration: line-through;
+  color: grey;
+}
+.mango-deal02__regular_price {
+  text-align: center;
+}

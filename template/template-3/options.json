@@ -1,0 +1,14 @@
+{
+  "background_color": "#ffffff",
+  "animation": "",
+  "max_width": "625",
+  "height": "auto",
+  "positions": [
+    "modal_popup",
+    "slide_in_left",
+    "slide_in_right"
+  ],
+  "background_image": false,
+  "tags": [],
+  "package": "Basic Templates"
+}

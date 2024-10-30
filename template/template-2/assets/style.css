@@ -1,0 +1,295 @@
+/* Coppy here */
+span.mango-popup__close {
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    color: #ffc8c8;
+    font-weight: 700;
+    top: 14px;
+    right: 14px;
+    line-height: 18px;
+}
+
+div.mango-popup-container {
+    /* Discount */
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mango-discount * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.mango-popup-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.mango-popup-container ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+div.mango-popup-container ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+div.mango-popup-container :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+div.mango-popup-container :-moz-placeholder {
+    /* Firefox 18- */
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+div.mango-popup-container div.mango-discount__left {
+    padding: 40px 0;
+    text-align: center;
+}
+
+div.mango-popup-container h2.mango-discount__title,
+div.mango-popup-container h3.mango-discount__subtitle,
+div.mango-popup-container form.mango-discount__form,
+div.mango-popup-container div.mango-discount__text {
+    padding: 0 15px;
+    text-align: center;
+}
+div.mango-popup-container .mango-discount__left button span{
+    text-transform: uppercase;
+}
+
+div.mango-popup-container h2.mango-discount__title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8f8f8f;
+    margin-bottom: 25px;
+}
+div.mango-popup-container h3.mango-discount__subtitle{
+    margin-bottom: 30px;
+    margin-top:17px;
+}
+div.mango-popup-container h3.mango-discount__subtitle span{
+    font-size: 17px;
+    font-weight: 700;
+    color: #fd5f60;
+
+}
+
+div.mango-popup-container form.mango-discount__form div.email {
+    margin-bottom: 14px;
+}
+
+div.mango-popup-container form.mango-discount__form div.email input[type="email"] {
+    width: 100%;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+div.mango-popup-container form.mango-discount__form div.submit {
+    margin-bottom: 35px;
+}
+
+div.mango-popup-container form.mango-discount__form div.submit button {
+    width: 100%;
+    padding: 10px;
+}
+
+div.mango-popup-container div.mango-discount__text {
+    font-size: 13px;
+    color: #d4d4d4;
+}
+
+div.mango-popup-container div.mango-discount__right {
+    background-color: #fd5f60;
+    padding-bottom: 53px;
+
+}
+
+div.mango-popup-container div.mango-discount__right span {
+    text-transform: uppercase;
+}
+
+div.mango-popup-container div.mango-discount__content {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+div.mango-popup-container div.mango-discount__content span {
+    color: #fdfdfd;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 2px;
+}
+
+div.mango-popup-container .mango-discount__content div:nth-child(2) span {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffc8c8;
+    position: relative;
+    margin-bottom: 8px;
+    margin-right: 12px;
+}
+
+div.mango-popup-container div.mango-discount__content div:nth-child(2) span:after {
+    content: '%';
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: translate(100%, 20%);
+    -ms-transform: translate(100%, 20%);
+    transform: translate(100%, 20%);
+}
+
+.mango-popup-container .mango-discount__detail {
+    padding: 20px 10px;
+    background-color: #ef4b4c;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mango-popup-container .mango-discount__detail span {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+div.mango-popup-container form.mango-discount__form div.email input {
+    height: 48px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    div.mango-popup-container {
+        display: inline-block;
+        width: 100%;
+    }
+
+    div.mango-discount {
+        display: table;
+    }
+
+    div.mango-popup-container div.mango-discount ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #8f8f8f;
+        font-size: 20px;
+    }
+
+    div.mango-popup-container div.mango-discount ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #8f8f8f;
+        font-size: 20px;
+    }
+
+    div.mango-popup-container div.mango-discount :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #8f8f8f;
+        font-size: 20px;
+    }
+
+    div.mango-popup-container div.mango-discount :-moz-placeholder {
+        /* Firefox 18- */
+        color: #8f8f8f;
+        font-size: 20px;
+    }
+
+    div.mango-popup-container div.mango-discount__left {
+        display: table-cell;
+        vertical-align: middle;
+        width: 65%;
+    }
+
+    div.mango-popup-container div.mango-discount__right {
+        display: table-cell;
+        vertical-align: middle;
+        width: 35%;
+        position: relative;
+    }
+
+    div.mango-popup-container h2.mango-discount__title {
+        padding: 0 56px;
+    }
+
+    div.mango-popup-container h3.mango-discount__subtitle{
+        padding: 0 123px;
+    }
+
+    div.mango-popup-container form.mango-discount__form {
+        padding: 0 70px;
+    }
+
+    div.mango-popup-container div.mango-discount__text {
+        padding: 0 38px;
+    }
+
+    div.mango-popup-container div.mango-discount__content {
+        padding: 40px;
+        text-align: left;
+    }
+
+    div.mango-popup-container div.mango-discount__content span {
+        font-size: 60px;
+        padding: 0;
+    }
+
+    div.mango-popup-container div.mango-discount__content div:nth-child(2) span {
+        font-size: 100px;
+        line-height: 100px;
+        display: inline-block;
+        margin-bottom: 23px;
+        margin-right: 0;
+    }
+
+    div.mango-popup-container div.mango-discount__content div:nth-child(2) span:after {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    div.mango-popup-container div.mango-discount__content div:nth-child(3) span {
+        font-size: 16px;
+    }
+
+    div.mango-popup-container form.mango-discount__form div.email input {
+        height: 53px;
+    }
+
+    div.mango-popup-container form.mango-discount__form div.submit button {
+        padding: 12px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    div.mango-popup-container div.mango-discount__content {
+        padding: 54px 46px 34px;
+    }
+}
+
+

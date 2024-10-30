@@ -1,0 +1,15 @@
+{
+    "tags": [],
+    "background_color": "#435288",
+    "animation": "",
+    "max_width": "750",
+    "height": "auto",
+    "positions": [
+        "modal_popup",
+        "slide_in_left",
+        "slide_in_right"
+    ],
+    "background_image": false,
+    "package": "Special Collection",
+    "isLocked": true
+}

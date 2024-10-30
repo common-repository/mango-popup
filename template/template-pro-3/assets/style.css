@@ -1,0 +1,195 @@
+.mango-popup__close {
+    width: 39px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    background-color: transparent;
+    top: 0;
+    right: 0;
+    font-family: sans-serif
+}
+
+.mango-popup--slide-in-right .mango-popup__close {
+    background-color: transparent;
+    color: #000;
+}
+
+.mango-shoes {
+    width: 100%;
+    font-family: "Open Sans";
+}
+
+.mango-shoes * {
+    font-family: "Open Sans";
+}
+
+.mango-shose__wrap {
+    width: 100%;
+}
+
+
+.mango-shoes__right {
+    padding: 50px 47px;
+}
+
+.mango-shoes__left {
+    background-image: url("{$MANGO_POPUP_TEMPLATE_URL}/assets/img/background.jpg");
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 290px;
+}
+
+
+.mango-shoes__image img {
+    width: 100%;
+}
+
+.mango-shoes__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("{$MANGO_POPUP_TEMPLATE_URL}/assets/img/0.png");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.mango-shoes__title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.mango-shoes__price {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.mango-shoes__price-strike {
+    color: #949494;
+    font-size: 36px;
+    display: inline-block;
+    font-weight: 300;
+    text-decoration: line-through;
+    width: 50%;
+    float: left;
+}
+
+.mango-shoes__price-sale {
+    color: #ff843b;
+    font-size: 36px;
+    display: inline-block;
+    font-weight: 300;
+    width: 50%;
+    float: left;
+}
+
+.mango-shoes__text {
+    text-align: left;
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 5px;
+}
+
+.mango-shoes__description {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    margin-bottom: 20px;
+}
+
+.mango-shoes__button {
+    width: 100%;
+    background-color: #ff7738;
+    border: none;
+    font-weight: 300;
+    font-size: 24px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: "Open Sans";
+    text-transform: none;
+}
+
+@media only screen and (min-width: 668px) {
+    .mango-shoes {
+        padding-left: 16px;
+    }
+
+    .mango-shose__wrap {
+        display: table;
+    }
+
+    .mango-shoes__left {
+        display: table-cell;
+        width: 42%;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    .mango-shoes__right {
+        display: table-cell;
+        width: 58%;
+        vertical-align: middle;
+    }
+
+    .mango-shoes__product-image {
+        position: absolute;
+        top: 50%;
+        left: -16px;
+        right: -16px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+    }
+
+    .mango-shoes__title {
+        margin-bottom: 24px;
+    }
+
+    .mango-shoes__price {
+        margin-bottom: 20px;
+    }
+
+    .mango-shoes__description {
+        margin-bottom: 40px;
+    }
+
+    .mango-shoes__image {
+        left: -15px;
+        right: -27px;
+        top: 50%;
+        width: auto;
+        height: 280px;
+        transform: translateY(-50%);
+    }
+
+    .mango-shoes__left {
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 770px) {
+    .mango-popup__close {
+        -webkit-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+        transform: translate(50%, -50%);
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #8c8c8c;
+        color: #fff;
+    }
+}
+

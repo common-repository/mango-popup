@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box; }
+
+/* button */
+.mango-button {
+  color: #909090;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px; }
+
+.mango-button:focus {
+  box-shadow: none; }
+
+
+/* general */
+input[type="text"]{
+  color:grey;
+}
+input[type="text"],
+button {
+  border: none;
+  box-shadow: none;
+  background: #fff; }
+
+button {
+  cursor: pointer; }
+span.mango-popup__close {
+  background: transparent;
+}
+
+div.mango-popup-container {
+  min-height: 100vh;
+  background-position: 50% 50%;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mango-popup-container ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #9c9c9c; }
+
+.mango-popup-container ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #9c9c9c; }
+
+.mango-popup-container :-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #9c9c9c; }
+
+.mango-popup-container :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #9c9c9c; }
+
+.mango-blog * {
+  font-family: "Roboto", sans-serif;
+}
+div.mango-blog__wrapper {
+  max-width: 650px; }
+
+div.mango-blog__label{
+  text-align:center;
+}
+div.mango-blog__label span{
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 700;
+  text-align: center; }
+
+h2.mango-blog__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 39px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align:center;}
+h2.mango-blog__title span{
+  line-height:normal;
+}
+h3.mango-blog__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 20px;
+  text-align:center;
+  margin-bottom: 52px;
+  color: #a8e5ff;
+}
+h3.mango-blog__subtitle span{
+  line-height:normal;
+}
+
+form.mango-blog__form {
+  padding: 0 30px; }
+
+div.mango-blog__name {
+  width: 100%;
+  margin-bottom: 15px; }
+
+div.mango-blog__name input[type="email"] {
+  color:#9c9c9c;
+  width: 100%;
+  height: 49px;
+  background-color: #fff;
+  border: 1px solid #d8d9dc;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 49px; }
+
+div.mango-blog__submit {
+  width: 100%;
+  margin-bottom: 15px; }
+div.mango-blog__refuse{
+  text-align:center;
+}
+div.mango-blog__refuse .mango-popup-plain-text-editable {
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #a8e5ff;
+  top: auto;
+  right: auto; }
+
+div.mango-blog button.mango-button {
+  width: 100%;
+  padding: 0;
+  border-bottom: 3px solid #e5d900;
+  background-color: #fff200;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #0079ac; }
+
+.mango-blog .mango-button span,
+.mango-blog .mango-button i.mango-popup__button-icon-loading {
+  line-height: 46px; }
+
+@media only screen and (min-width: 650px) {
+  .mango-popup-container .mango-blog__label span{
+    font-size: 30px; }
+  .mango-popup-container .mango-blog__title {
+    font-size: 60px; }
+  .mango-popup-container .mango-blog__subtitle {
+    font-size: 20px;
+    padding: 0 56px; }
+  .mango-popup-container .mango-blog__form {
+    padding: 0 88px; }
+}
+
